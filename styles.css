@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-left: 50px;
+}
+
+.dash-wrapper {
+    margin: 35px 0 35px 35px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    gap: 10px;
+    position: fixed;
+    right: 0;
+    width: 85%;
+    border: 1px solid green;
+}
+
+.list-item {
+    list-style-type: none;
+}
