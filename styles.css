@@ -41,13 +41,9 @@ body {
     font-size: 22px;
 }
 
-.flex-item:hover {
+.highlight:hover {
     background-color: #3f3e4a;
     color: white; 
-}
-
-.flex-item .dash:hover {
-    background-color: none;
 }
 
 .flex-item a {
@@ -84,7 +80,7 @@ nav {
     height: 10%;
     font-family: 'Montserrat', sans-serif;
     background-color: #f7f7fc;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: #666470 0px 8px 24px;
 }
 
 nav a {
@@ -111,4 +107,60 @@ nav a:hover {
 
 .jacob {
     margin-left: 50px;
+}
+
+.grid-wrapper {
+    display: grid;
+    border: transparent;
+    width:85%;
+    right: 0;
+    position: fixed;
+    margin-top: 5.5%;
+    height: 100%;
+    grid-template-columns: 2fr 200px;
+    box-shadow: #666470 0px 8px 24px;
+    background-color: #C0C0C0;
+}
+
+.grid-item {
+    display: grid;
+    border: transparent;
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 5px;
+    box-shadow: #666470 0px 8px 24px;
+    background-color: #f7f7fc;
+}
+
+.stats {
+    grid-row: span 2;
+    margin: 25px 0 0 55px;
+}
+
+.stats-body {
+    display: grid;
+    grid-template-columns: repeat(3fr, auto-fit);
+}
+
+.stat-item {
+    display: grid;
+    border: 1px solid black;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.feed {
+    grid-row: span 3;
+    width: 300px;
+    height: 300px;
+    margin: 25px 20px 0 -80px;
+}
+
+.user-info {
+    grid-row: span 4;
+    margin: 10px 0 50px 55px;
+}
+
+.move-up {
+    margin-bottom: 60px;
 }
