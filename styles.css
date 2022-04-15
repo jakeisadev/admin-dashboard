@@ -139,14 +139,18 @@ nav a:hover {
 
 .stats-body {
     display: grid;
-    grid-template-columns: repeat(3fr, auto-fit);
+    grid-template-columns: repeat(3, 300px);
 }
 
 .stat-item {
     display: grid;
     border: 1px solid black;
-    max-width: 100%;
+    max-width: 120%;
     max-height: 100%;
+}
+
+.downloads {
+    margin-right: -35px;
 }
 
 .feed {
