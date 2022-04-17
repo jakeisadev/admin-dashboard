@@ -127,13 +127,9 @@ nav a:hover {
 
 .stat-item {
     display: grid;
-    border: 1px solid black;
+    border: 1px solid gray;
     max-width: 100%;
     max-height: 100%;
-}
-
-.downloads {
-    margin-right: -35px;
 }
 
 .feed {
@@ -152,14 +148,50 @@ nav a:hover {
     margin-bottom: 60px;
 }
 
-.software-trends {
+.software-trends,
+.total-sales,
+.site-traffic {
     padding: 10px;
     font-size: 18px;
+    text-align: center;
+    color: gray;
 }
 
 .software-container {
     display: flex;
     justify-content: space-evenly;
+}
+
+.sales-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.sales-stats {
+    font-size: 38px;
+    font-weight: bold;
+    color: green;
+    align-items: center;
+}
+
+.sales-photo {
+    display: flex;
+    align-items: center;
+}
+
+.traffic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.traffic-stat {
+    font-size: 36px;
+    color: black;
 }
 
 .metric-green {
