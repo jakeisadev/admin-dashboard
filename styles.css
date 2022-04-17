@@ -77,8 +77,6 @@ nav a:hover {
     background: -webkit-linear-gradient(to bottom, #B91C1C 0%, #FCA5A5 100%);
     background: -moz-linear-gradient(to bottom, #B91C1C 0%, #FCA5A5 100%);
     background: linear-gradient(to bottom, #B91C1C 0%, #FCA5A5 100%);
-
-
     box-shadow: #666470 0px 8px 24px;
 }
 
@@ -114,10 +112,12 @@ nav a:hover {
 .dash {
     color: white;
     font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
 }
 
 .dash-wrapper {
-    margin: 35px 0 35px 35px;
+    margin: 35px 0 35px 0;
 }
 
 .grid-wrapper {
