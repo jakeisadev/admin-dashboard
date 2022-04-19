@@ -356,3 +356,20 @@ hr {
   .red {
       background-color: #ef4444 ;
   }
+
+  .quote-of-the-day {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0 0 5px;
+      display: inline-block;
+  }
+
+  .quote {
+      text-align: center;
+      font-size: 15px;
+      margin: 10px 5px 5px 0;
+  }
+
+  .author {
+      margin-top: 10px;
+  }
