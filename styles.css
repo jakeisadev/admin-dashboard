@@ -68,6 +68,10 @@ nav a:hover::before {
     transform: scaleX(1);
   }
 
+p {
+    color: gray;
+}
+
 .nav-items {
     display: flex;
     justify-content: flex-end;
@@ -315,3 +319,40 @@ hr {
     margin-top: 5px;
     color: #fef2f2;
 }
+
+/*From here to .progress is inspired by Andy Ngom https://jsfiddle.net/adyngom/8ym43f25/*/
+.bar {
+    background-color: #fee2e2;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 40px;
+    }
+
+.bar-inner {
+    background-color: #4ade80;
+    width: 0%;
+    height: 100%;
+    position: relative;
+    transition: width 2000ms linear;
+  }
+  
+  .bar-inner:after {
+    position: absolute;
+    right: 2.5%;
+    content: attr(data-percent);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .progress {
+      display: inline-block;
+      overflow: auto;
+      width: 100%;
+      margin: auto;
+  }
+
+  .red {
+      background-color: #ef4444 ;
+  }
