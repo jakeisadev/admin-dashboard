@@ -608,7 +608,8 @@ hr {
             width: 100%;
         }
     
-        .stat-item {
+        .stat-item,
+        .grid-item.user-info {
             width: auto;
         }
     
@@ -636,6 +637,7 @@ hr {
         .user-info,
         .user {
             margin: auto;
+            margin-right: 10px;
         }
     
         .user-name {
@@ -645,7 +647,7 @@ hr {
         .user-options-container {
             text-align: center;
             white-space: nowrap;
-            padding-left: 35px;
+            padding-left: 25px;
         }
     
         .grid-item.user-info {
@@ -712,8 +714,68 @@ hr {
 
         .software-container {
             height: 150px;
+            margin-top: 15px;
         }
 
+        .enlarge {
+            width: 75px;
+            height:75px;
+        }
+
+        .metric-red,
+        .metric-green {
+            font-size: 24px;
+        }
+
+        .feed {
+            height: 400px;
+            width: 400px;
+            align-items: center;
+        }
+
+        .grid-item.user-info {
+            align-self: center;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .grid-item.feed.border,
+        .user-bio,
+        ul.li.left {
+            font-size: 20px;
+        }
+
+        .user-options-container {
+            padding-left: 30px;
+        }
+
+        .user-name {
+            margin-top: 20px;
+            margin-right: 5px;
+            padding-left: 10px;
+        }
+        
+        .user-profile {
+            padding-left: 11px;
+        }
+
+        .quote {
+            font-size: 25px;
+        }
+
+        .author {
+            padding-top: 30px;
+        }
+
+        .quote hr {
+            margin-top: 25px;
+        }
+
+        .quote-of-the-day {
+            font-size: 24px;
+            padding-bottom: 10px;
+        }
+         
     }
 
     @media screen and (min-width: 1025px) {
