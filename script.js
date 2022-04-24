@@ -7,4 +7,5 @@
       }, index * 1000);
       
     });
+
   })(document)
